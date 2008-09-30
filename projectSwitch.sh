@@ -5,122 +5,116 @@ SVNOLD1=http://adois.org/gusvn
 SVNOLD2=http://svn.adois.org/gustavo
 SVN=http://svn.rabello.org/gustavo
 
-AUX=projects/cpp/ns2d/trunk
+DIR=~/projects/cpp/ns2d
+AUX=$DIR/trunk
+cd ~/$DIR
+svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
+svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
+
+DIR=~/projects/cpp/ns2dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/cpp/ns2dTransport/trunk
+DIR=~/projects/cpp/ns3d
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/cpp/ns3d/trunk
+DIR=~/projects/cpp/ns3dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/cpp/ns3dTransport/trunk
+DIR=~/projects/cpp/meshGen
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/cpp/meshGenerator/trunk
+DIR=~/projects/python/ns2d
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/ns2d/trunk
+DIR=~/projects/python/ns2dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/ns2dTransport/trunk
+DIR=~/projects/python/ns3d
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/ns3d/trunk
+DIR=~/projects/python/ns3dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/ns3dTransport/trunk
+DIR=~/projects/python/misc
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/misc
+DIR=~/projects/python/heat
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/python/heat/trunk
+DIR=~/projects/matlab/ns2d
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns2d/trunk
+DIR=~/projects/matlab/ns2dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns2dTransport/trunk
+DIR=~/projects/matlab/ns2d/
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns2d/trunk
+DIR=~/projects/matlab/ns2dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns2dTransport/trunk
+DIR=~/projects/matlab/ns3d
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns3d/trunk
+DIR=~/projects/matlab/ns3dTransport
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/matlab/ns3dTransport/trunk
+DIR=~/projects/bash
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
 
-AUX=projects/bash
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=msc/dissertation/trunk
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=msc/ns3d/trunk
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=msc/presentation/trunk
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=bsc/project/trunk
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=misc/dotfile
-cd ~/$AUX
-svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
-svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
-
-AUX=misc/latex
+DIR=~/dotfiles
+AUX=$DIR/trunk
 cd ~/$AUX
 svn switch --relocate $SVNOLD1/$AUX $SVN/$AUX
 svn switch --relocate $SVNOLD2/$AUX $SVN/$AUX
