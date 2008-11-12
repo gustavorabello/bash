@@ -1,23 +1,29 @@
 #!/bin/bash
 
-PROJECT=~$PROJECT
+PROJECT=~/projects
 PROGS=~/Programs
-SVN=$SVN
+SVN=http://svn.rabello.org/
 
 echo atualizando cpp/ns2d
 cd $PROJECT/cpp/ns2d; svn update
 echo atualizando cpp/ns2dTransport
 cd $PROJECT/cpp/ns2dTransport; svn update
+echo atualizando cpp/ns2dBubble
+cd $PROJECT/cpp/ns2dBubble; svn update
 echo atualizando cpp/ns3d
 cd $PROJECT/cpp/ns3d; svn update
 echo atualizando cpp/ns3dTransport
 cd $PROJECT/cpp/ns3dTransport; svn update
+echo atualizando cpp/ns3dBubble
+cd $PROJECT/cpp/ns3dBubble; svn update
 echo atualizando cpp/meshGen
 cd $PROJECT/cpp/meshGen; svn update
 echo atualizando python/ns2d
 cd $PROJECT/python/ns2d; svn update
 echo atualizando python/ns2dTransport
 cd $PROJECT/python/ns2dTransport; svn update
+echo atualizando python/ns2dBubble
+cd $PROJECT/python/ns2dBubble; svn update
 echo atualizando python/ns3d
 cd $PROJECT/python/ns3d; svn update
 echo atualizando python/ns3dTransport

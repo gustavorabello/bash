@@ -2,8 +2,8 @@
 
 PROJECT=~/projects
 PROGS=~/Programs
-SVN=$SVN
-BOOSTFILE=http://http://downloads.sourceforge.net/boost/boost_1_36_0.tar.gz?modtime=1218749416&big_mirror=0
+SVN=http://svn.rabello.org/gustavo
+BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_36_0.tar.gz
 
 mkdir $PROJECT
 mkdir $PROJECT/python; mkdir $PROJECT/cpp
@@ -22,6 +22,7 @@ svn co $SVN/projects/python/ns2d/trunk ns2d
 svn co $SVN/projects/python/ns3d/trunk ns3d
 svn co $SVN/projects/python/ns2dTransport/trunk ns2dTransport
 svn co $SVN/projects/python/ns3dTransport/trunk ns3dTransport
+svn co $SVN/projects/python/ns2dBubble/trunk ns2dBubble
 
 cd $PROJECT/cpp
 svn co $SVN/projects/cpp/meshGenerator/trunk meshGen
@@ -29,6 +30,7 @@ svn co $SVN/projects/cpp/ns2d/trunk ns2d
 svn co $SVN/projects/cpp/ns3d/trunk ns3d
 svn co $SVN/projects/cpp/ns2dTransport/trunk ns2dTransport
 svn co $SVN/projects/cpp/ns3dTransport/trunk ns3dTransport
+svn co $SVN/projects/cpp/ns2dBubble/trunk ns2dBubble
 
 cd $PROJECT/matlab
 svn co $SVN/projects/matlab/ns2d/trunk ns2d
