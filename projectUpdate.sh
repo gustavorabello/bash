@@ -4,8 +4,12 @@ PROJECT=~/projects
 PROGS=~/Programs
 SVN=http://svn.rabello.org/
 
+echo atualizando cpp/lib
+cd $PROJECT/cpp/lib; svn update
 echo atualizando cpp/ns2d
 cd $PROJECT/cpp/ns2d; svn update
+echo atualizando cpp/ns2dPetsc
+cd $PROJECT/cpp/ns2dPetsc; svn update
 echo atualizando cpp/ns2dTransport
 cd $PROJECT/cpp/ns2dTransport; svn update
 echo atualizando cpp/ns2dBubble
@@ -42,7 +46,7 @@ echo atualizando matlab/ns3dTransport
 cd $PROJECT/matlab/ns3dTransport; svn update
 echo atualizando bash
 cd $PROJECT/bash; svn update
-cd ~$PROJECT
+cd $PROJECT
 
 echo todos os projetos foram atualizados com sucesso
 
