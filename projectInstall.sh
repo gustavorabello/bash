@@ -3,7 +3,7 @@
 PROJECT=~/projects
 PROGS=~/Programs
 SVN=http://svn.rabello.org/gustavo
-BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_36_0.tar.gz
+BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_38_0.tar.gz
 
 mkdir $PROJECT
 mkdir $PROJECT/python; mkdir $PROJECT/cpp
@@ -13,7 +13,7 @@ mkdir $PROJECT/db/mesh; mkdir $PROJECT/db/baseState
 mkdir $PROJECT/db/mesh/2d; mkdir $PROJECT/db/mesh/3d
 mkdir $PROGS; mkdir $PROGS/boost; 
 cd $PROGS/boost; wget $BOOSTFILE; tar -xzvf boost*.tar.gz
-mkdir 1.35.0;
+mkdir 1.38.0;
 
 cd $PROJECT/python
 svn co $SVN/projects/python/heat/trunk heat
