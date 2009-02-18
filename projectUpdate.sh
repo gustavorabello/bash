@@ -44,6 +44,8 @@ echo atualizando matlab/ns3d
 cd $PROJECT/matlab/ns3d; svn update
 echo atualizando matlab/ns3dTransport
 cd $PROJECT/matlab/ns3dTransport; svn update
+echo atualizando matlab/ns2dBubble
+cd $PROJECT/matlab/ns2dBubble; svn update
 echo atualizando bash
 cd $PROJECT/bash; svn update
 cd $PROJECT
