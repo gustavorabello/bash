@@ -32,6 +32,7 @@ svn co $SVN/projects/cpp/ns2dTransport/trunk ns2dTransport
 svn co $SVN/projects/cpp/ns3dTransport/trunk ns3dTransport
 svn co $SVN/projects/cpp/ns2dBubble/trunk ns2dBubble
 svn co $SVN/projects/cpp/ns3dBubble/trunk ns3dBubble
+svn co $SVN/projects/cpp/lib/trunk lib 
 
 cd $PROJECT/matlab
 svn co $SVN/projects/matlab/ns2d/trunk ns2d
