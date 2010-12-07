@@ -3,17 +3,24 @@
 PROJECT=~/projects
 PROGS=~/Programs
 SVN=http://svn.rabello.org/gustavo
-BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_40_0.tar.gz
+BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_45_0.tar.gz
+PETSCFILE=http://ftp.mcs.anl.gov/pub/petsc/petsc-dev.tar.gz
 
 mkdir $PROJECT
-mkdir $PROJECT/python; mkdir $PROJECT/cpp
-mkdir $PROJECT/matlab; mkdir $PROJECT/bash
+mkdir $PROJECT/python $PROJECT/cpp
+mkdir $PROJECT/matlab $PROJECT/bash
 mkdir $PROJECT/db
-mkdir $PROJECT/db/mesh; mkdir $PROJECT/db/baseState
-mkdir $PROJECT/db/mesh/2d; mkdir $PROJECT/db/mesh/3d
-mkdir $PROGS; mkdir $PROGS/boost; 
+mkdir $PROJECT/db/mesh $PROJECT/db/mesh/2d $PROJECT/db/mesh/3d
+mkdir $PROJECT/db/gmsh $PROJECT/db/gmsh/2d $PROJECT/db/gmsh/3d
+mkdir $PROJECT/db/baseState
+mkdir $PROJECT/db/baseState/nuC
+mkdir $PROJECT/db/baseState/nuZ
+mkdir $PROJECT/db/baseState/nuCte
+
+mkdir $PROGS; 
+mkdir $PROGS/boost $PROGS/petsc $PROGS/tetgen $PROGS/triangle
 cd $PROGS/boost; wget $BOOSTFILE; tar -xzvf boost*.tar.gz
-mkdir 1.40.0;
+cd $PROGS/petsc; wget $PETSCFILE; tar -xzvf petsc*.tar.gz
 
 cd $PROJECT/python
 svn co $SVN/projects/python/heat/trunk heat
@@ -25,13 +32,8 @@ svn co $SVN/projects/python/ns3dTransport/trunk ns3dTransport
 svn co $SVN/projects/python/ns2dBubble/trunk ns2dBubble
 
 cd $PROJECT/cpp
-svn co $SVN/projects/cpp/meshGenerator/trunk meshGen
-svn co $SVN/projects/cpp/ns2d/trunk ns2d
-svn co $SVN/projects/cpp/ns3d/trunk ns3d
-svn co $SVN/projects/cpp/ns2dTransport/trunk ns2dTransport
-svn co $SVN/projects/cpp/ns3dTransport/trunk ns3dTransport
-svn co $SVN/projects/cpp/ns2dBubble/trunk ns2dBubble
-svn co $SVN/projects/cpp/ns3dBubble/trunk ns3dBubble
+svn co $SVN/projects/cpp/femSIM2d/trunk femSIM2d
+svn co $SVN/projects/cpp/femSIM3d/trunk femSIM3d
 svn co $SVN/projects/cpp/lib/trunk lib 
 
 cd $PROJECT/matlab
