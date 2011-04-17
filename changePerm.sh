@@ -1,8 +1,11 @@
 #!/bin/bash
 
-find ~/Music -name "*.mp3" -exec chmod -x {} \;
-find ~/Pictures -name "*.jpg" -exec chmod -x {} \;
-find ~/Videos -name "*.avi" -exec chmod -x {} \;
+find ~/Music -type f -exec chmod 644 {} \;
+find ~/Music -type d -exec chmod 770 {} \;
+find ~/Pictures -type f -exec chmod 644 {} \;
+find ~/Pictures -type d -exec chmod 770 {} \;
+find ~/Videos -type f -exec chmod 644 {} \;
+find ~/Videos -type d -exec chmod 770 {} \;
 
 # $Id: $
 
