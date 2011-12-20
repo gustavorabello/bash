@@ -47,6 +47,7 @@ git clone $matlab/ns2dBubble              $DIR/ns2dBubble
 git clone $matlab/ns2dTransport           $DIR/ns2dTransport
 git clone $matlab/ns3d                    $DIR/ns3d
 git clone $matlab/ns3dTransport           $DIR/ns3dTransport
+git clone $matlab/curvature               $DIR/curvature
 
 
 # bash
