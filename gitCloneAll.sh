@@ -1,34 +1,41 @@
 #!/bin/bash
 
-git=guga@git.rabello.org:git
+GIT=guga@git.rabello.org:git
+PROJECT=~/projects
+PROGS=~/Programs
+BOOSTFILE=http://downloads.sourceforge.net/boost/boost_1_49_0.tar.gz
+PETSCFILE=http://ftp.mcs.anl.gov/pub/petsc/petsc-dev.tar.gz
+
+mkdir $PROGS; 
+mkdir $PROGS/boost $PROGS/petsc $PROGS/tetgen $PROGS/triangle
+cd $PROGS/boost; wget $BOOSTFILE; tar -xzvf boost*.tar.gz
+cd $PROGS/petsc; wget $PETSCFILE; tar -xzvf petsc*.tar.gz
+
 
 # c++
-git clone $git/cpp/femSIM2d cpp/femSIM2d
-git clone $git/cpp/femSIM3d cpp/femSIM3d
-git clone $git/cpp/lib cpp/lib
+GIT clone $GIT/cpp/femSIM2d cpp/femSIM2d
+GIT clone $GIT/cpp/femSIM3d cpp/femSIM3d
+GIT clone $GIT/cpp/lib cpp/lib
 
 # matlab
-git clone $git/matlab/ns2d matlab/ns2d
-git clone $git/matlab/ns2dBubble matlab/ns2dBubble
-git clone $git/matlab/ns2dTransport matlab/ns2dTransport
-git clone $git/matlab/ns3d matlab/ns3d
-git clone $git/matlab/ns3dTransport matlab/ns3dTransport
+GIT clone $GIT/matlab/ns2d matlab/ns2d
+GIT clone $GIT/matlab/ns2dBubble matlab/ns2dBubble
+GIT clone $GIT/matlab/ns2dTransport matlab/ns2dTransport
+GIT clone $GIT/matlab/ns3d matlab/ns3d
+GIT clone $GIT/matlab/ns3dTransport matlab/ns3dTransport
 
 # python 
-git clone $git/python/heat python/heat
-git clone $git/python/ns2d python/ns2d
-git clone $git/python/ns2dBubble python/ns2dBubble
-git clone $git/python/ns2dTransport python/ns2dTransport
-git clone $git/python/ns3d python/ns3d
-git clone $git/python/ns3dTransport python/ns3dTransport
+GIT clone $GIT/python/heat python/heat
+GIT clone $GIT/python/misc python/misc
+GIT clone $GIT/python/femSIM2d python/femSIM2d
+GIT clone $GIT/python/femSIM3d python/femSIM3d
 
 # bash
-git clone $git/bash bash
+GIT clone $GIT/bash bash
 
 # misc
-git clone $git/misc/dotfiles misc/dotfiles
-git clone $git/misc/latex misc/latex
+GIT clone $GIT/misc/dotfiles misc/dotfiles
+GIT clone $GIT/misc/latex misc/latex
 
 # $Id: $
-
 
