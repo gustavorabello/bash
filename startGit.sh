@@ -8,6 +8,9 @@ DIR=$HOME/projects/articles
 git clone $articles/2003/cesam            $DIR/2003/cesam
 git clone $articles/2003/semic            $DIR/2003/semic
 git clone $articles/2004/encit            $DIR/2004/encit
+git clone $articles/2007/msc/dissertation $DIR/2007/msc/dissertation
+git clone $articles/2007/msc/presentation $DIR/2007/msc/presentation
+git clone $articles/2007/msc/ns3d         $DIR/2007/msc/ns3d
 git clone $articles/2007/capes            $DIR/2007/capes
 git clone $articles/2007/cnmac            $DIR/2007/cnmac
 git clone $articles/2007/emc              $DIR/2007/emc
@@ -18,7 +21,16 @@ git clone $articles/2011/epflReport       $DIR/2011/epflReport
 git clone $articles/2011/etpfgm           $DIR/2011/etpfgm
 git clone $articles/2011/jes              $DIR/2011/jes
 git clone $articles/2011/nano-tera        $DIR/2011/nano-tera
-git clone $articles/2011/jcp              $DIR/2011/jcp
+git clone $articles/2012/jcp              $DIR/2012/jcp
+git clone $articles/2012/eci              $DIR/2012/eci
+git clone $articles/2012/etpfgm           $DIR/2012/etpfgm
+git clone $articles/2012/fentran          $DIR/2012/fentran
+git clone $articles/2012/phd              $DIR/2012/phd
+git clone $articles/2013/bmse             $DIR/2013/bmse
+git clone $articles/2013/capes            $DIR/2013/capes
+git clone $articles/2013/hte              $DIR/2013/hte
+git clone $articles/2013/johnBook         $DIR/2013/johnBook
+git clone $articles/2014/wccm             $DIR/2013/wccm
 
 # cpp
 cpp=$REPO/cpp
@@ -37,7 +49,8 @@ git clone $python/ns2dBubble              $DIR/ns2dBubble
 git clone $python/ns3d                    $DIR/ns3d
 git clone $python/ns3dTransport           $DIR/ns3dTransport
 git clone $python/poisson                 $DIR/poisson
-git clone $python/site                    $DIR/site
+git clone $python/sitePro                 $DIR/sitePro
+git clone $python/pyFEM2d                 $DIR/pyFEM2d
 
 # matlab
 matlab=$REPO/matlab
@@ -55,28 +68,12 @@ bash=$REPO/bash
 DIR=$HOME/projects/bash
 git clone $bash                           $DIR 
 
-# bsc
-bsc=$REPO/bsc
-DIR=$HOME/projects/bsc
-git clone $bsc/project                    $DIR/project
-
-# msc 
-msc=$REPO/msc
-DIR=$HOME/projects/msc
-git clone $msc/dissertation               $DIR/dissertation
-git clone $msc/ns3d                       $DIR/ns3d
-git clone $msc/presentation               $DIR/presentation
-
-# dsc
-dsc=$REPO/dsc
-DIR=$HOME/projects/dsc
-git clone $dsc/qualifying                 $DIR/qualifying
-
 # misc
 misc=$REPO/misc
 DIR=$HOME/projects/misc
 git clone $misc/dotfiles                  $DIR/dotfiles
 git clone $misc/latex                     $DIR/latex
+git clone $misc/paraview                  $DIR/paraview
 
 # $Id: $
 
