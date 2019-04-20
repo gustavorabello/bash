@@ -28,7 +28,7 @@ git clone $GIT/python-mech-course       $DIR/mech-course
 git clone $GIT/python-misc              $DIR/misc
 git clone $GIT/python-femSIM2d          $DIR/femSIM2d
 git clone $GIT/python-femSIM3d          $DIR/femSIM3d
-git clone $GIT/python-personal-site     $DIR/site-personal
+git clone $GIT/python-personal-site     $DIR/personal-site
 git clone $GIT/python-pyAnalytics       $DIR/pyAnalytics
 git clone $GIT/python-htmlSIM2d         $DIR/htmlSIM2d
 git clone $GIT/python-maxwell2d         $DIR/maxwell2d
@@ -38,7 +38,7 @@ git clone $GIT/python-transcal          $DIR/transcal
 git clone $GIT/python-pyVonKarman       $DIR/pyVonKarman
 git clone $GIT/python-poisson           $DIR/poisson
 git clone $GIT/python-heat              $DIR/heat
-git clone $GIT/gustavorabello.github.io $DIR/site-personal/gustavorabello.github.io
+git clone $GIT/gustavorabello.github.io $DIR/personal-site/gustavorabello.github.io
 
 # bash
 DIR=$HOME/projects/bash
@@ -62,22 +62,14 @@ DIR=$HOME/projects/articles
 git clone $GIT/articles-2003-cesam                 $DIR/2003/cesam
 git clone $GIT/articles-2003-semic                 $DIR/2003/semic
 git clone $GIT/articles-2004-encit                 $DIR/2004/encit
-git clone $GIT/articles-2007-msc-dissertation      $DIR/2007/msc/dissertation
-git clone $GIT/articles-2007-msc-presentation      $DIR/2007/msc/presentation
-git clone $GIT/articles-2007-msc/ns3d              $DIR/2007/msc/ns3d
-git clone $GIT/articles-2007-capes                 $DIR/2007/capes
 git clone $GIT/articles-2007-cnmac                 $DIR/2007/cnmac
 git clone $GIT/articles-2007-emc                   $DIR/2007/emc
-git clone $GIT/articles-2007-emcLivro              $DIR/2007/emcLivro
+git clone $GIT/articles-2007-emc-book              $DIR/2007/emcLivro
 git clone $GIT/articles-2007-iciam-disk            $DIR/2007/iciam/disk
 git clone $GIT/articles-2007-iciam-reservoirs      $DIR/2007/iciam/reservoirs
-git clone $GIT/articles-2011-epflReport            $DIR/2011/epflReport
 git clone $GIT/articles-2011-etpfgm                $DIR/2011/etpfgm
-git clone $GIT/articles-2011-jes                   $DIR/2011/jes
 git clone $GIT/articles-2011-nano-tera             $DIR/2011/nano-tera
 git clone $GIT/articles-2012-jcp                   $DIR/2012/jcp
-git clone $GIT/articles-2012-jes                   $DIR/2012/jes
-git clone $GIT/articles-2012-phd                   $DIR/2012/phd
 git clone $GIT/articles-2012-eci                   $DIR/2012/eci
 git clone $GIT/articles-2013-hte                   $DIR/2013/hte
 git clone $GIT/articles-2013-johnBook              $DIR/2013/johnBook
@@ -91,8 +83,27 @@ git clone $GIT/articles-2018-bmse                  $DIR/2018/bmse
 git clone $GIT/articles-2019-icmf                  $DIR/2019/icmf
 git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
 
+DIR=$HOME/projects/thesis
+git clone $GIT/bsc                                 $DIR/bsc
+git clone $GIT/msc                                 $DIR/msc
+git clone $GIT/msc-presentation                    $DIR/msc-presentation
+git clone $GIT/msc-ns3d                            $DIR/msc-code
+git clone $GIT/phd                                 $DIR/phd
+git clone $GIT/phd-qualifying                      $DIR/qualifying-phd
+
+# repports
+DIR=$HOME/projects/reports
+git clone $GIT/reports-2011-epfl                   $DIR/2011/epflReport
+git clone $GIT/reports-2011-cmosaic                $DIR/2011/cmosaic
+git clone $GIT/reports-2014-capes                  $DIR/2014/capes
+git clone $GIT/reports-2015-capes                  $DIR/2015/capes
+git clone $GIT/reports-2017-faperj-int             $DIR/2017/faperj/int
+git clone $GIT/reports-2018-faperj-int             $DIR/2018/faperj/int
+
 # supports
 DIR=$HOME/projects/supports
+git clone $GIT/supports-2007-capes-presentation $DIR/2007/capes
+git clone $GIT/supports-2013-capes              $DIR/2013/capes
 git clone $GIT/supports-2014-faperj-inst        $DIR/2014/faperj/inst
 git clone $GIT/supports-2015-cnpq-produtividade $DIR/2015/cnpq/produtividade
 git clone $GIT/supports-2015-faperj-adt1        $DIR/2015/faperj/adt1
@@ -112,7 +123,7 @@ DIR=$HOME/projects/notes
 git clone $GIT/latex-mech-course                $DIR/mech-course
 git clone $GIT/latex-transCal                   $DIR/transCal
 git clone $GIT/latex-elementosFinitos           $DIR/elementosFinitos
-git clone $GIT/latex-memorial-ufrj              $DIR/memorial-ufrj
+git clone $GIT/latex-memorial-ufrj              $DIR/ufrj-memorial
 
 # $Id: $
 
