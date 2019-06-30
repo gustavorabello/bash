@@ -62,6 +62,7 @@ DIR=$HOME/projects/articles
 git clone $GIT/articles-2003-cesam                 $DIR/2003/cesam
 git clone $GIT/articles-2003-semic                 $DIR/2003/semic
 git clone $GIT/articles-2004-encit                 $DIR/2004/encit
+git clone $GIT/articles-2006-encit                 $DIR/2006/encit
 git clone $GIT/articles-2007-cnmac                 $DIR/2007/cnmac
 git clone $GIT/articles-2007-emc                   $DIR/2007/emc
 git clone $GIT/articles-2007-emc-book              $DIR/2007/emcLivro
@@ -76,12 +77,17 @@ git clone $GIT/articles-2013-johnBook              $DIR/2013/johnBook
 git clone $GIT/articles-2013-jbsmse                $DIR/2013/bmse
 git clone $GIT/articles-2015-opteng                $DIR/2015/opteng
 git clone $GIT/articles-2015-interpack             $DIR/2015/interpack
+git clone $GIT/articles-2015-cobem                 $DIR/2015/cobem
 git clone $GIT/articles-2017-johnBook-applications $DIR/2017/johnBook
 git clone $GIT/articles-2017-exHFT-9               $DIR/2017/exHFT-9
+git clone $GIT/articles-2017-cobem                 $DIR/2017/cobem
+git clone $GIT/articles-2017-cobem-coronary        $DIR/2017/cobem-coronary
 git clone $GIT/articles-2018-ijnme                 $DIR/2018/ijnme
 git clone $GIT/articles-2018-bmse                  $DIR/2018/bmse
+git clone $GIT/articles-2018-cbcfd                 $DIR/2018/cbcfd
 git clone $GIT/articles-2019-icmf                  $DIR/2019/icmf
 git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
+git clone $GIT/articles-2019-iutam                 $DIR/2019/iutam
 
 DIR=$HOME/projects/thesis
 git clone $GIT/bsc                                 $DIR/bsc
@@ -111,12 +117,19 @@ git clone $GIT/supports-2015-faperj-apq1        $DIR/2015/faperj/apq1
 git clone $GIT/supports-2015-faperj-apq5        $DIR/2015/faperj/apq5
 git clone $GIT/supports-2015-uerj-catedras      $DIR/2015/uerj/catedras
 git clone $GIT/supports-2016-faperj-jcne        $DIR/2016/faperj/jcne
+git clone $GIT/supports-2016-faperj-int         $DIR/2016/faperj/int
 git clone $GIT/supports-2016-faperj-emergentes  $DIR/2016/faperj/emergentes
 git clone $GIT/supports-2016-cnpq-produtividade $DIR/2016/cnpq/produtividade
 git clone $GIT/supports-2017-cnpq-produtividade $DIR/2017/cnpq/produtividade
 git clone $GIT/supports-2018-capes-paep         $DIR/2018/capes/paep
 git clone $GIT/supports-2018-cnpq-universal     $DIR/2018/cnpq/universal
 git clone $GIT/supports-2018-cnpq-produtividade $DIR/2018/cnpq/produtividade
+git clone $GIT/supports-2018-cnpq-arc           $DIR/2018/cnpq/arc
+git clone $GIT/supports-2018-uerj-pibic         $DIR/2018/uerj/pibic
+git clone $GIT/supports-2018-faperj-int         $DIR/2018/faperj/int
+git clone $GIT/supports-2019-faperj-jcne        $DIR/2019/faperj/jcne
+git clone $GIT/supports-2019-cnpq-produtividade $DIR/2019/cnpq/produtividade
+git clone $GIT/supports-2019-cnpq-brics         $DIR/2019/cnpq/brics
 
 # notes-latex
 DIR=$HOME/projects/notes
@@ -124,6 +137,14 @@ git clone $GIT/latex-mech-course                $DIR/mech-course
 git clone $GIT/latex-transCal                   $DIR/transCal
 git clone $GIT/latex-elementosFinitos           $DIR/elementosFinitos
 git clone $GIT/latex-memorial-ufrj              $DIR/ufrj-memorial
+
+# letters-latex
+DIR=$HOME/projects/letters
+git clone $GIT/letters-2014-eduardo-um       $DIR/2014/letters/eduardo-um
+git clone $GIT/letters-2014-eduardo-ucla     $DIR/2014/letters/eduardo-ucla
+git clone $GIT/letters-2016-gabriel-paris    $DIR/2016/letters/gabriel-paris
+git clone $GIT/letters-2017-danillo-portugal $DIR/2017/letters/danillo-portugal
+git clone $GIT/letters-2017-rachel-glasgow   $DIR/2017/letters/rachel-glasgow
 
 # $Id: $
 
