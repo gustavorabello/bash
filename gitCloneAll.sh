@@ -105,6 +105,7 @@ git clone $GIT/reports-2014-capes                  $DIR/2014/capes
 git clone $GIT/reports-2015-capes                  $DIR/2015/capes
 git clone $GIT/reports-2017-faperj-int             $DIR/2017/faperj/int
 git clone $GIT/reports-2018-faperj-int             $DIR/2018/faperj/int
+git clone $GIT/reports-2019-capes-paep             $DIR/2019/capes/paep
 
 # supports
 DIR=$HOME/projects/supports
