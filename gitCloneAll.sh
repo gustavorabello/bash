@@ -46,7 +46,7 @@ git clone $GIT/bash                     $DIR
 
 # misc
 DIR=$HOME/projects/misc
-git clone $GIT/misc-latex               $DIR/latex
+git clone $GIT/latex                    $DIR/latex
 git clone $GIT/dotfiles                 $DIR/dotfiles
 git clone $GIT/paraview                 $DIR/paraview
 
