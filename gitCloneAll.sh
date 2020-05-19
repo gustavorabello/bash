@@ -38,6 +38,8 @@ git clone $GIT/python-transcal          $DIR/transcal
 git clone $GIT/python-pyVonKarman       $DIR/pyVonKarman
 git clone $GIT/python-poisson           $DIR/poisson
 git clone $GIT/python-heat              $DIR/heat
+git clone $GIT/pyCurvature              $DIR/pyCurvature
+git clone $GIT/pyLattes                 $DIR/pyLattes
 git clone $GIT/gustavorabello.github.io $DIR/personal-site/gustavorabello.github.io
 
 # bash
@@ -88,6 +90,7 @@ git clone $GIT/articles-2018-cbcfd                 $DIR/2018/cbcfd
 git clone $GIT/articles-2019-icmf                  $DIR/2019/icmf
 git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
 git clone $GIT/articles-2019-iutam                 $DIR/2019/iutam
+git clone $GIT/articles-2020-wccm                  $DIR/2020/wccm
 
 DIR=$HOME/projects/thesis
 git clone $GIT/bsc                                 $DIR/bsc
@@ -106,6 +109,7 @@ git clone $GIT/reports-2015-capes                  $DIR/2015/capes
 git clone $GIT/reports-2017-faperj-int             $DIR/2017/faperj/int
 git clone $GIT/reports-2018-faperj-int             $DIR/2018/faperj/int
 git clone $GIT/reports-2019-capes-paep             $DIR/2019/capes/paep
+git clone $GIT/reports-2020-faperj-jcne            $DIR/2020/faperj/jcne
 
 # supports
 DIR=$HOME/projects/supports
