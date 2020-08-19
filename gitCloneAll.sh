@@ -91,6 +91,7 @@ git clone $GIT/articles-2019-icmf                  $DIR/2019/icmf
 git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
 git clone $GIT/articles-2019-iutam                 $DIR/2019/iutam
 git clone $GIT/articles-2020-wccm                  $DIR/2020/wccm
+git clone $GIT/articles-2020-comp-fluids           $DIR/2020/comp-fluids
 
 DIR=$HOME/projects/thesis
 git clone $GIT/bsc                                 $DIR/bsc
@@ -135,6 +136,9 @@ git clone $GIT/supports-2018-faperj-int         $DIR/2018/faperj/int
 git clone $GIT/supports-2019-faperj-jcne        $DIR/2019/faperj/jcne
 git clone $GIT/supports-2019-cnpq-produtividade $DIR/2019/cnpq/produtividade
 git clone $GIT/supports-2019-cnpq-brics         $DIR/2019/cnpq/brics
+git clone $GIT/supports-2020-faperj-emergencial $DIR/2020/faperj/emergencial
+git clone $GIT/supports-2020-cnpq-produtividade $DIR/2020/cnpq/produtividade
+git clone $GIT/supports-2020-uk-newton          $DIR/2020/uk-newton
 
 # notes-latex
 DIR=$HOME/projects/notes
@@ -142,6 +146,8 @@ git clone $GIT/latex-mech-course                $DIR/mech-course
 git clone $GIT/latex-transCal                   $DIR/transCal
 git clone $GIT/latex-elementosFinitos           $DIR/elementosFinitos
 git clone $GIT/latex-memorial-ufrj              $DIR/ufrj-memorial
+git clone $GIT/notes-semi-Lagrangian            $DIR/semi-Lagrangian
+git clone $GIT/fentran-vol1_transCal            $DIR/fentran-vol1_transCal
 
 # letters-latex
 DIR=$HOME/projects/letters
@@ -150,6 +156,7 @@ git clone $GIT/letters-2014-eduardo-ucla     $DIR/2014/letters/eduardo-ucla
 git clone $GIT/letters-2016-gabriel-paris    $DIR/2016/letters/gabriel-paris
 git clone $GIT/letters-2017-danillo-portugal $DIR/2017/letters/danillo-portugal
 git clone $GIT/letters-2017-rachel-glasgow   $DIR/2017/letters/rachel-glasgow
+git clone $GIT/letters-2019-hyun-postdoc.git $DIR/2019/letters/hyun-postdoc
 
 # $Id: $
 
