@@ -156,7 +156,9 @@ git clone $GIT/letters-2014-eduardo-ucla     $DIR/2014/letters/eduardo-ucla
 git clone $GIT/letters-2016-gabriel-paris    $DIR/2016/letters/gabriel-paris
 git clone $GIT/letters-2017-danillo-portugal $DIR/2017/letters/danillo-portugal
 git clone $GIT/letters-2017-rachel-glasgow   $DIR/2017/letters/rachel-glasgow
-git clone $GIT/letters-2019-hyun-postdoc.git $DIR/2019/letters/hyun-postdoc
+git clone $GIT/letters-2019-hyun-postdoc     $DIR/2019/letters/hyun-postdoc
+git clone $GIT/letters-2020-luisCarnevale-warsaw \
+          $DIR/2020/letters/luisCarnevale-warsaw
 
 # $Id: $
 
