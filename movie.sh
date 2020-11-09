@@ -1,13 +1,13 @@
 #!/bin/bash
 
-FPS=16
+FPS=20
 EXT=png
 FILENAME=movie.mov
 
 ffmpeg -r $FPS \
        -f image2 \
        -pattern_type glob \
-       -i "*.$EXT" \
+       -i "assembled-*{0,5}0.$EXT" \
        -c:v prores_ks \
        $FILENAME
 
