@@ -1,9 +1,10 @@
 #!/bin/bash
 
 
-for i in {1..17200}; do
+for i in {1..100}; do
+ output="assembled-`printf "%05d\n" $i`.png"
  echo
- echo "convert: sim-$i.png" 
+ echo "converting: sim-$i.png" 
  convert "simT-$i.png" \
          -background White \
          -font Times-Roman -pointsize 20 \
@@ -39,8 +40,8 @@ for i in {1..17200}; do
          +swap  \
      	 -gravity Center \
          -append \
-         "assembled-$i.png"
- echo
+         $output
+ echo "generated: $output" 
 done
 
 # $Id: $
