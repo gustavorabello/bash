@@ -21,6 +21,7 @@ git clone $GIT/matlab-ns2dTransport     $DIR/ns2dTransport
 git clone $GIT/matlab-ns3d              $DIR/ns3d
 git clone $GIT/matlab-ns3dTransport     $DIR/ns3dTransport
 git clone $GIT/matlab-curvature         $DIR/curvature
+git clone $GIT/matlab-misc              $DIR/misc
 
 # python 
 DIR=$HOME/projects/python
@@ -148,6 +149,7 @@ git clone $GIT/latex-elementosFinitos           $DIR/elementosFinitos
 git clone $GIT/latex-memorial-ufrj              $DIR/ufrj-memorial
 git clone $GIT/notes-semi-Lagrangian            $DIR/semi-Lagrangian
 git clone $GIT/fentran-vol1_transCal            $DIR/fentran-vol1_transCal
+git clone $GIT/notes-semiSphere                 $DIR/semiSphere
 
 # letters-latex
 DIR=$HOME/projects/letters
