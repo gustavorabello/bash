@@ -6,6 +6,10 @@ PROJECT=~/projects
 mkdir $PROJECT
 cd $PROJECT
 
+# crontab - paraview - pvpython
+DIR=$HOME/projects/crontab
+git clone $GIT/crontab                  $DIR/crontab
+
 # c++
 DIR=$HOME/projects/cpp
 git clone $GIT/cpp-femSIM2d             $DIR/femSIM2d
