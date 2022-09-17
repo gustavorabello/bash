@@ -16,7 +16,7 @@ sudo apt update
 # install standard packages
 sudo apt install vim exuberant-tags wget make clang g++ \
          imagemagick ffmpeg gnuplot zsh texlive-full fdfind \
-         fzf
+         fzf gmsh
 
 # upgrade apt
 sudo apt upgrade
@@ -29,13 +29,16 @@ sh ./Miniconda3-latest-Linux-x86_64.sh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # create conda env for mech-course
-conda env create -f /home/gustavo/projects/python/mech-course/conda.osx.yaml
+DIR=/home/gustavo/projects/python/mech-course
+conda env create -f $DIR/conda.osx.yaml
 
 # create conda env for femSIM2d and femSIM3d
-conda env create -f /home/gustavo/projects/cpp/femSIM2d/conda.linux.yaml 
+DIR=/home/gustavo/projects/cpp/femSIM2d
+conda env create -f $DIR/conda.linux.yaml 
 
 # create conda env for hyde webpage
-conda env create -f /home/gustavo/projects/python/personal-site/conda.yaml 
+DIR=/home/gustavo/projects/python/personal-site
+conda env create -f $DIR/conda.yaml 
 
 
 # $Id: $
