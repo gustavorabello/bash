@@ -14,9 +14,9 @@ rm -fr /home/gustavo/bash
 sudo apt update
 
 # install standard packages
-sudo apt install vim exuberant-tags wget make clang g++ \
-         imagemagick ffmpeg gnuplot zsh texlive-full fdfind \
-         fzf gmsh
+sudo apt install vim exuberant-ctags wget make clang g++ \
+         imagemagick ffmpeg gnuplot zsh texlive-full  \
+         fzf gmsh poppler-utils fd-find speedtest-cli
 
 # upgrade apt
 sudo apt upgrade
