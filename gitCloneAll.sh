@@ -97,6 +97,7 @@ git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
 git clone $GIT/articles-2019-iutam                 $DIR/2019/iutam
 git clone $GIT/articles-2020-wccm                  $DIR/2020/wccm
 git clone $GIT/articles-2020-comp-fluids           $DIR/2020/comp-fluids
+git clone $GIT/articles-2021-bmse                  $DIR/2021/bmse
 
 DIR=$HOME/projects/thesis
 git clone $GIT/bsc                                 $DIR/bsc
@@ -144,6 +145,11 @@ git clone $GIT/supports-2019-cnpq-brics         $DIR/2019/cnpq/brics
 git clone $GIT/supports-2020-faperj-emergencial $DIR/2020/faperj/emergencial
 git clone $GIT/supports-2020-cnpq-produtividade $DIR/2020/cnpq/produtividade
 git clone $GIT/supports-2020-uk-newton          $DIR/2020/uk-newton
+git clone $GIT/supports-2021-faperj-tematicos   $DIR/2021/faperj/tematicos
+git clone $GIT/supports-2021-cnpq-produtividade $DIR/2021/cnpq/produtividade
+git clone $GIT/supports-2022-cnpq-produtividade $DIR/2022/cnpq/produtividade
+git clone $GIT/supports-2022-faperj-tematicos   $DIR/2022/faperj/tematicos
+git clone $GIT/supports-2022-faperj-jcne        $DIR/2022/faperj/jcne
 
 # notes-latex
 DIR=$HOME/projects/notes
@@ -165,6 +171,10 @@ git clone $GIT/letters-2017-rachel-glasgow   $DIR/2017/letters/rachel-glasgow
 git clone $GIT/letters-2019-hyun-postdoc     $DIR/2019/letters/hyun-postdoc
 git clone $GIT/letters-2020-luisCarnevale-warsaw \
           $DIR/2020/letters/luisCarnevale-warsaw
+git clone $GIT/letters-2021-virgilio-georgeTech \
+          $DIR/2021/letters/virgilio-georgeTech
+git clone $GIT/letters-2021-claraHildebrandt-nantes \
+          $DIR/2021/letters/claraHildebrandt-nantes
 
 # $Id: $
 
