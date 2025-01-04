@@ -10,6 +10,10 @@ cd $PROJECT
 DIR=$HOME/projects/crontab
 git clone $GIT/crontab                  $DIR/crontab
 
+# curriculum vitae - cv
+DIR=$HOME/projects
+git clone $GIT/cv                       $DIR/cv
+
 # c++
 DIR=$HOME/projects/cpp
 git clone $GIT/cpp-femSIM2d             $DIR/femSIM2d
@@ -97,6 +101,7 @@ git clone $GIT/articles-2019-cmame                 $DIR/2019/cmame
 git clone $GIT/articles-2019-iutam                 $DIR/2019/iutam
 git clone $GIT/articles-2020-wccm                  $DIR/2020/wccm
 git clone $GIT/articles-2020-comp-fluids           $DIR/2020/comp-fluids
+git clone $GIT/articles-2021-bmse                  $DIR/2021/bmse
 
 DIR=$HOME/projects/thesis
 git clone $GIT/bsc                                 $DIR/bsc
