@@ -31,7 +31,7 @@ git clone $GIT/matlab-ns3dTransport     $DIR/ns3dTransport
 git clone $GIT/matlab-curvature         $DIR/curvature
 git clone $GIT/matlab-misc              $DIR/misc
 
-# python 
+# python
 DIR=$HOME/projects/python
 git clone $GIT/python-mech-course       $DIR/mech-course
 git clone $GIT/python-misc              $DIR/misc
@@ -113,14 +113,17 @@ git clone $GIT/phd-qualifying                      $DIR/qualifying-phd
 
 # repports
 DIR=$HOME/projects/reports
-git clone $GIT/reports-2011-epfl                   $DIR/2011/epflReport
-git clone $GIT/reports-2011-cmosaic                $DIR/2011/cmosaic
-git clone $GIT/reports-2014-capes                  $DIR/2014/capes
-git clone $GIT/reports-2015-capes                  $DIR/2015/capes
-git clone $GIT/reports-2017-faperj-int             $DIR/2017/faperj/int
-git clone $GIT/reports-2018-faperj-int             $DIR/2018/faperj/int
-git clone $GIT/reports-2019-capes-paep             $DIR/2019/capes/paep
-git clone $GIT/reports-2020-faperj-jcne            $DIR/2020/faperj/jcne
+git clone $GIT/reports-2011-epfl               $DIR/2011/epflReport
+git clone $GIT/reports-2011-cmosaic            $DIR/2011/cmosaic
+git clone $GIT/reports-2014-capes              $DIR/2014/capes
+git clone $GIT/reports-2015-capes              $DIR/2015/capes
+git clone $GIT/reports-2017-faperj-int         $DIR/2017/faperj/int
+git clone $GIT/reports-2018-faperj-int         $DIR/2018/faperj/int
+git clone $GIT/reports-2019-capes-paep         $DIR/2019/capes/paep
+git clone $GIT/reports-2020-faperj-jcne        $DIR/2020/faperj/jcne
+git clone $GIT/reports-2025-faperj-emergencial $DIR/2025/faperj/emergencial-covid
+git clone $GIT/reports-2025-faperj-jcne        $DIR/2025/faperj/jcne
+git clone $GIT/reports-2026-faperj-jcne        $DIR/2026/faperj/jcne
 
 # supports
 DIR=$HOME/projects/supports
@@ -154,6 +157,8 @@ git clone $GIT/supports-2021-cnpq-produtividade $DIR/2021/cnpq/produtividade
 git clone $GIT/supports-2022-cnpq-produtividade $DIR/2022/cnpq/produtividade
 git clone $GIT/supports-2022-faperj-tematicos   $DIR/2022/faperj/tematicos
 git clone $GIT/supports-2022-faperj-jcne        $DIR/2022/faperj/jcne
+git clone $GIT/supports-2025-cnpq-produtividade $DIR/2025/cnpq/produtividade
+git clone $GIT/supports-2025-cnpq-universal     $DIR/2025/cnpq/universal
 
 # notes-latex
 DIR=$HOME/projects/notes
