@@ -50,6 +50,7 @@ git clone $GIT/python-heat              $DIR/heat
 git clone $GIT/pyCurvature              $DIR/pyCurvature
 git clone $GIT/pyLattes                 $DIR/pyLattes
 git clone $GIT/gustavorabello.github.io $DIR/personal-site/gustavorabello.github.io
+git clone $GIT/python-pyTabs            $DIR/pyTabs
 
 # bash
 DIR=$HOME/projects/bash
